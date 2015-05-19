@@ -21,22 +21,22 @@ return array(
         /**
          * Tenant admin's username
          */
-        'admin-username' => 'test@testphprg.scigap.org',
+        'admin-username' => 'test@dsc.iu.edu',
 
         /**
          * Tenant admin's password
          */
-        'admin-password' => 'testadmin@scigap.org',
+        'admin-password' => 'testadmin@@dsc.iu.edu',
 
         /**
          * Identity server domain
          */
-        'server' => 'idp.scigap.org',
+        'server' => 'dsc.iu.edu',
 
         /**
          * Identity server web services endpoint
          */
-        'service-url' => 'https://idp.scigap.org:7443/services/',
+        'service-url' => 'https://149.165.158.139:9443/services/',
 
         /**
          * Gateway domain name
@@ -56,7 +56,7 @@ return array(
         /**
          * Allow self signed server certificates
          */
-        'allow-self-signed-cert' => false
+        'allow-self-signed-cert' => true
     ],
 
 
@@ -69,7 +69,7 @@ return array(
         /**
          * Airavata API server location
          */
-        'airavata-server' => 'gw111.iu.xsede.org',
+        'airavata-server' => '149.165.158.139',
 
         /**
          * Airavata API server port
